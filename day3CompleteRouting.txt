@@ -242,7 +242,7 @@ router eigrp 100
  network 10.1.4.4 0.0.0.3
  end
 !HOW TO CHECK IF EIGRP IS WORKING PROPERLY:
-SIR: show ip protocols
+SIR: show ip route protocols
 SIEN: show ip EIGRP neighbors --> super, meron kapitbahay
 SIET: show ip eigrp topology --> super, madami ang P, P lahat
 show ip eigrp traffic
